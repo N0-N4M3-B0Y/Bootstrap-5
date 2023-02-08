@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./aula1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./aula1/js/bootstrap.bundle.min.js">
+
+    <title>Lista</title>
+</head>
+<body>
+    <h3 class="m-3">Listas BootStrap 5</h3>
+
+    <ul class="list-group">
+        <li class="list-group-item">Lista 01</li>
+        <li class="list-group-item">Lista 02</li>
+        <li class="list-group-item">Lista 03</li>
+    </ul>
+
+    <ul class="list-group m-3">
+        <li class="list-group-item active" aria-current="true">Lista personalizada</li>
+        <li class="list-group-item">Lista 01</li>
+        <li class="list-group-item">Lista 02</li>
+        <li class="list-group-item">Lista 03</li>
+    </ul>
+
+    <ul class="list-group m-3">
+        <li class="list-group-item disabled" aria-disabled="true">Lista Desabilitada</li>
+        <li class="list-group-item">Lista 01</li>
+        <li class="list-group-item">Lista 02</li>
+        <li class="list-group-item">Lista 03</li>
+    </ul>
+    <hr>
+
+    <div class="list-group m-3">
+        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">A lista do link atual 00</a>
+
+        <a href="#" class="list-group-item list-group-item-action">Lista 01</a>
+        <a href="#" class="list-group-item list-group-item-action">Lista 02</a>
+        <a href="#" class="list-group-item list-group-item-action">Lista 03</a>
+    </div>
+    <hr>
+
+    <h3 class="m-3">Removendo lihnas da lista</h3>
+    <ul class="list-group list-group flush">
+        <li class="list-group-item">01</li>
+        <li class="list-group-item">02</li>
+        <li class="list-group-item">03</li>
+        <li class="list-group-item">04</li>
+        <li class="list-group-item">05</li>
+    </ul>
+    <hr>
+
+    <h3 class="m-3">Lista ordenada - com números</h3>
+    <ul class="list-group list-group-numbered">
+        <li class="list-group-item">LISTA</li>
+        <li class="list-group-item">LISTA</li>
+        <li class="list-group-item">LISTA</li>
+        <li class="list-group-item">LISTA</li>
+        <li class="list-group-item">LISTA</li>
+    </ul>
+    
+    <ol class="list-group list-group-numbered">
+        <li class="list list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Subtítulo</div>
+                Conteúdo para o item da lista
+            </div>
+            <span class="badge bg-primary rounded-pill">15</span>
+        </li>
+
+        <li class="list list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Subtítulo</div>
+                Conteúdo para o item da lista
+            </div>
+            <span class="badge bg-primary rounded-pill">32</span>
+        </li>
+
+        <li class="list list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Subtítulo</div>
+                Conteúdo para o item da lista
+            </div>
+            <span class="badge bg-primary rounded-pill">12</span>
+        </li>
+    </ol>
+
+    <h3 class="m-3">Lista horizontal</h3>
+
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">Primeira Lista</li>
+        <li class="list-group-item">Segunda Lista</li>
+        <li class="list-group-item">Terceira Lista</li>
+    </ul>
+
+    <ul class="list-group list-group-horizontal-sm">
+        <li class="list-group-item">Primeira Lista</li>
+        <li class="list-group-item">Segunda Lista</li>
+        <li class="list-group-item">Terceira Lista</li>
+    </ul>
+    <hr>
+
+    <h3 class="m-3">Cores para listas</h3>
+    
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-primary">Primeira lista</li>
+        <li class="list-group-item list-group-item-danger">Primeira lista</li>
+        <li class="list-group-item list-group-item-primary">Primeira lista</li>
+        <li class="list-group-item list-group-item-primary">Primeira lista</li>
+    </ul>
+    <hr>
+
+    <h3 class="m-3">Personalizando uma lista</h3>
+    <div class="list-group">
+        <a href="" class="list-group-item list-group-item-action active" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Lista 01</h5>
+                <small>06 dias atrás</small>
+            </div>
+            <p class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad corporis, assumenda libero aliquam laborum, deserunt et impedit asperiores, ratione illum autem. Itaque assumenda quibusdam modi fugiat, tempora reprehenderit quis ut?</p>
+        </a> 
+
+        <a href="" class="list-group-item list-group-item-action active" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Lista 02</h5>
+                <small>06 dias atrás</small>
+            </div>
+            <p class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad corporis, assumenda libero aliquam laborum, deserunt et impedit asperiores, ratione illum autem. Itaque assumenda quibusdam modi fugiat, tempora reprehenderit quis ut?</p>
+        </a> 
+
+        <a href="" class="list-group-item list-group-item-action active" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Lista 03</h5>
+                <small>06 dias atrás</small>
+            </div>
+            <p class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad corporis, assumenda libero aliquam laborum, deserunt et impedit asperiores, ratione illum autem. Itaque assumenda quibusdam modi fugiat, tempora reprehenderit quis ut?</p>
+        </a> 
+    </div>
+
+</body>
+</html>
