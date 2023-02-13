@@ -1,0 +1,27 @@
+*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero{
+    background: rgb(0, 79, 156);
+}
+.navbar{
+    background: rgb(0, 79, 156) !important;
+}
+.pesquisa{
+    background: linear-gradient(to right, rgb(9,127,201),rgb(0,39,78));
+}
+
+.curso-titulo{
+    transition: all 0.4s;
+}
+
+.curso-titulo:hover{
+    color: red;
+}
+
+.fundo{
+    background-color: rgb(0, 79, 156);
+}
